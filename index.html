@@ -1,10 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jane Lin</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Jane Lin</h1>
-    <p>This is my portfolio site.</p>
+    <nav class="nav">
+      <a class="brand" href="index.html">Jane Lin</a>
+      <div class="links">
+        <a href="engineering.html">Engineering</a>
+        <a href="misc.html">Misc</a>
+      </div>
+    </nav>
+
+    <main class="container">
+      <h1>Hi, I’m Jane.</h1>
+      <p>
+        I build mechanical + robotics systems and care about human-centered design.
+      </p>
+
+      <section class="card">
+        <h2>Quick links</h2>
+        <ul>
+          <li><a href="engineering.html">Engineering projects</a></li>
+          <li><a href="misc.html">Misc / non-engineering</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="y"></span> Jane Lin</p>
+    </footer>
+
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
