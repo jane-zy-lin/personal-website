@@ -25,7 +25,8 @@ a:hover { opacity: 0.85; }
   align-items: center;
   padding: 14px var(--pad);
   border-bottom: 1px solid var(--border);
-  background: rgba(11,12,16,0.75);
+  background-color: #228B22;
+  color: #000000;
   backdrop-filter: blur(10px);
 }
 .brand { text-decoration: none; font-weight: 700; }
