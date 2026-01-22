@@ -70,7 +70,7 @@ a:hover { opacity: 0.85; }
   text-align: center;
 }
 
-.profile-pic {
+.profile pic {
   width: 40px;        /* change this number freely */
   height: 40px;
   object-fit: cover;   /* crops instead of stretching */
