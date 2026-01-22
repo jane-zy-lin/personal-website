@@ -77,4 +77,13 @@ a:hover { opacity: 0.85; }
   border-radius: 50%;  /* makes it circular */
   display: block;
 }
-
+.intro1 {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  max-width: 640px;
+}
+.intro2 {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  max-width: 640px;
+}
