@@ -71,8 +71,8 @@ a:hover { opacity: 0.85; }
 }
 
 .profile-pic {
-  width: 120px;        /* change this number freely */
-  height: 120px;
+  width: 480px;        /* change this number freely */
+  height: 480px;
   object-fit: cover;   /* crops instead of stretching */
   border-radius: 50%;  /* makes it circular */
   display: block;
