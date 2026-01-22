@@ -87,3 +87,15 @@ a:hover { opacity: 0.85; }
   line-height: 1.6;
   max-width: 640px;
 }
+
+.hero {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 24px;
+  align-items: center;
+  margin: 24px 0;
+}
+.intro-text p {
+  margin: 0 0 8px 0;
+}
+
