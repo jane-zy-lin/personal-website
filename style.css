@@ -71,8 +71,8 @@ a:hover { opacity: 0.85; }
 }
 
 .profile-pic {
-  width: 600px;        /* change this number freely */
-  height: 600px;
+  width: 360px;        /* change this number freely */
+  height: 360px;
   object-fit: cover;   /* crops instead of stretching */
   border-radius: 50%;  /* makes it circular */
   display: block;
@@ -90,11 +90,12 @@ a:hover { opacity: 0.85; }
 
 .hero {
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 180px 1fr;
   gap: 24px;
   align-items: center;
   margin: 24px 0;
 }
+
 .intro-text p {
   margin: 0 0 8px 0;
 }
