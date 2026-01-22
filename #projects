@@ -10,8 +10,7 @@
     <nav class="nav">
       <a class="brand" href="index.html">Jane Lin</a>
       <div class="links">
-        <a href="engineering.html">Engineering</a>
-        <a href="misc.html">Misc</a>
+        <a href="#projects"> Projects</a>
       </div>
     </nav>
 
