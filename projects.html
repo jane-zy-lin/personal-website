@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,40 +9,63 @@
 
   <body>
     <nav class="nav">
-      <a class="brand" href="index.html">Jane Lin</a>
+      <a class="brand" href="about.html">Jane Lin</a>
       <div class="links">
-        <a href="projects.html">Projects</a>
+        <a href="projects.html" aria-current="page">Projects</a>
       </div>
     </nav>
 
     <main class="container">
-      <h1>Projects</h1>
-      <p class="tag">Robotics • Mechanical Design • Simulation</p>
+      <header class="page-header">
+        <h1>Projects</h1>
+        <p class="tag">Robotics • Mechanical Design • Simulation</p>
+      </header>
 
-      <div class="grid">
-        <section class="card">
-          <h2>Kangaroobot</h2>
-          <p>Short description. What you built. Why it matters.</p>
-          <ul>
-            <li>Role: Mechanical Design / Simulation</li>
-            <li>Tools: Fusion 360, MuJoCo, Python</li>
-            <li>Result: 30 cm/s (0.5 robot size per cycle)</li>
-          </ul>
-        </section>
+      <section class="projects-grid" aria-label="Project list">
+        <a class="project-card" href="project-kangaroobot.html">
+          <div class="thumb">
+            <img src="images/kangaroobot.jpg" alt="Kangaroobot walking robot" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <h2>Kangaroobot</h2>
+            <p>Kangaroo-inspired walking robot; CAD + MuJoCo + control + sensor-ready design.</p>
+            <span class="card-cta">View details →</span>
+          </div>
+        </a>
 
-        <section class="card">
-          <h2>mTPAD (ROAR Lab)</h2>
-          <p>Short description. What you changed. What constraint you met.</p>
-          <ul>
-            <li>Focus: Modularity + load-bearing performance</li>
-            <li>Method: Preliminary FEA checks</li>
-          </ul>
-        </section>
-      </div>
+        <a class="project-card" href="project-mtpad.html">
+          <div class="thumb">
+            <img src="images/mtpad.jpg" alt="mTPAD assistive device" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <h2>mTPAD Redesign</h2>
+            <p>Structural redesign for modularity; preliminary FEA validation and mounting optimization.</p>
+            <span class="card-cta">View details →</span>
+          </div>
+        </a>
+
+        <a class="project-card" href="project-fem-airfoil.html">
+          <div class="thumb">
+            <img src="images/fem-airfoil.jpg" alt="FEM potential flow visualization" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <h2>2D FEM Solver</h2>
+            <p>MATLAB FEM for potential flow around airfoil cutout; postprocessing and verification.</p>
+            <span class="card-cta">View details →</span>
+          </div>
+        </a>
+
+        <a class="project-card" href="project-prr-manipulator.html">
+          <div class="thumb">
+            <img src="images/prr.jpg" alt="Planar PRR manipulator" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <h2>PRR Planar Manipulator</h2>
+            <p>Kinematics + workspace analysis; design for constrained under-car inspection tasks.</p>
+            <span class="card-cta">View details →</span>
+          </div>
+        </a>
+      </section>
     </main>
-
-    <footer class="footer">
-      <p><a href="index.html">Home</a></p>
-    </footer>
   </body>
 </html>
