@@ -217,51 +217,31 @@ body{
   .media-grid { grid-template-columns: 1fr; }
 }
 
-.project-intro {
-  display: flex;
-  align-items: flex-start;
-  gap: 3rem;
-  margin-top: 2rem;
-}
-
-.project-hero img {
-  width: 420px;
+/* 1) Size down kangaroobot.jpg (only inside the intro row) */
+.project-intro .project-hero img {
+  width: 320px;      /* change to taste */
   max-width: 100%;
   height: auto;
-  border-radius: 8px;
 }
 
-.project-overview {
-  flex: 1;
+/* 2) Make initial-design.png span full page width (override the .project-hero width rules) */
+.project-section .project-hero {
+  width: 100%;
 }
 
-.bullets {
-  margin: 0;
-  padding-left: 1.2rem;
-}
-
-.bullets li {
-  margin: 0.4rem 0;
-}
-
-.bonus-gif {
-  width: 520px;
+.project-section .project-hero img {
+  width: 100%;
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 0.75rem 0;
-  border-radius: 8px;
 }
 
-@media (max-width: 768px) {
-  .project-intro {
-    flex-direction: column;
-    gap: 1.25rem;
-  }
-
-  .project-hero img {
-    width: 100%;
-  }
+/* 3) Size down the backflipping gif to really small */
+.bonus-gif {
+  width: 140px;      /* really small; adjust if needed */
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 
