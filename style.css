@@ -244,6 +244,33 @@ body{
   display: block;
 }
 
+.project-intro {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+.project-intro .project-hero {
+  flex: 0 0 auto;
+}
+
+.project-intro .project-hero img {
+  width: 320px;
+  height: auto;
+  display: block;
+}
+
+.project-intro .project-overview {
+  flex: 1;
+  margin-top: 0;
+}
+
+.project-intro .project-overview h2 {
+  margin-top: 0;
+}
+
+
 
 
 
