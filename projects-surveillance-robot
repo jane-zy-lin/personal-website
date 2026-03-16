@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> PRRR Under-car Surveillance Robot | Jane Lin</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="nav">
+      <a class="brand" href="index.html">Jane Lin</a>
+      <div class="links">
+        <a href="projects.html">Projects</a>
+      </div>
+    </nav>
+
+    <main class="container">
+      <a class="backlink" href="projects.html">← Back to Projects</a>
+
+      <header class="project-header">
+        <h1>Surveillance Robot </h1>
+        <p class="tag">
+          Simulation • MATLAB • Trajectory Planning • Workspace Visualization • Forward/Inverse Kinematics
+        </p>
+      </header>
+
+      <section class="project-intro">
+        <div class="project-hero">
+          <img src="assets/rendering.jpg" alt="robot rendering" />
+          <img src="assets/SOLIDWORKS.jpg" alt="Solidworks modeling" />
+        </div>
+
+        <div class="project-overview">
+          <h2> Autonomous Under-Vehicle Inspection Robot with PRRR Manipulator </h2>
+          <p> Vehicle undercarriage inspection is typically performed using bulky equipment and manual operation, 
+              making the process slow, labor-intensive, and difficult to deploy in confined spaces. But how about
+              a compact robotic inspection system capable of navigating and positioning sensors or tools for 
+              detailed inspection tasks? </p>
+
+          </p>
+        </div>
+      </section>
+      
+      <section class="project-section">
+        <div class="project-hero">
+          <img src="assets/PRRR-tracing.gif" alt="Planar PRR manipulator" loading="lazy" />
+      
+        </div>
+        <p> A prismatic rail combined with three revolute joints enables the robot to translate along the 
+            vehicle’s length while orienting the end-effector to access hard-to-reach components underneath the chassis. </p>
+      </section>
+
+    
+
+      <section class="project-section">
+        <div class="media-grid">
+          <img src="assets/ROM-reiterative1.png" alt="ROM iteration 1" loading="lazy" />
+          <img src="assets/ROM-reiterative2.png" alt="ROM iteration 2" loading="lazy" />
+        </div>
+      </section>
+
+
+    </main>
+  </body>
+</html>
