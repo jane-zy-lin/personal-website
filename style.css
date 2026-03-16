@@ -273,20 +273,20 @@ body{
   margin-top: 0;
 }
 
-.project-hero {
+.workspace-images {
   display: flex;
-  gap: 16px;           /* space between images */
+  gap: 20px;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;     /* prevents overflow on small screens */
-}
-.project-hero img {
-  width: 45%;          /* each image takes ~half the row */
-  max-width: 420px;    /* prevents them from becoming huge */
-  height: auto;
-  border-radius: 8px;
+  margin-top: 10px;
 }
 
+.workspace-images img {
+  width: 40%;
+  max-width: 380px;
+  height: auto;
+  border-radius: 6px;
+}
 
 
 
