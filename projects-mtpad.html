@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> ROAR Lab, Columbia University | Jane Lin</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="nav">
+      <a class="brand" href="index.html">Jane Lin</a>
+      <div class="links">
+        <a href="projects.html">Projects</a>
+      </div>
+    </nav>
+
+    <main class="container">
+      <a class="backlink" href="projects.html">← Back to Projects</a>
+
+      <header class="project-header">
+        <h1>mTPAD structural component</h1>
+        <p class="tag">
+          Fusion 360 • SolidWorks • 3D Print (FDM)
+        </p>
+      </header>
+
+      <section class="project-intro">
+        <div class="project-hero">
+          <img src="assets/kangaroobot.jpg" alt="Kangaroobot" />
+        </div>
+
+        <div class="project-overview">
+          <h2>From Nature to Mechanics: Tail-Assisted Walking from the Kangaroo’s playbook.</h2>
+          <p> Kangaroos use their long and strong tail as their “fifth” limb propel themselves 
+            forward while walking. The tail could even support their full body weight when 
+            they stand up to kick during fights! </p>
+          <p> The design objectives are to recreate the stable tail-assisted walking with 8 servos:
+            COM will be slowly transferred to the tail as it progresses, and slowly transferred 
+            back to the five points of  contact (four legs & tail)
+
+          </p>
+        </div>
+      </section>
+      
+      <section class="project-section">
+        <div class="project-hero">
+          <img src="assets/initial-design.png" alt="Kangaroobot" />
+        </div>
+      </section>
+
+      <section class="project-section">
+        <h2>Key Steps</h2>
+        <ul class="bullets">
+          <li>Mechanical design: prototype (FDM) / screws & washers / heat inserts</li>
+          <li>Controls: gait parameter search / RL exploration</li>
+          <li>Simulation: MuJoCo</li>
+        </ul>
+      </section>
+
+      <section class="project-section">
+        <h2>Key results</h2>
+        <ul class="bullets">
+          <li>Speed: 30.1 cm/s (1 robot size per cycle)</li>
+          <li>Iteration: maximized ROM （240°）</li>
+        </ul>
+      </section>
+
+      <section class="project-section">
+        <div class="media-grid">
+          <img src="assets/ROM-reiterative1.png" alt="ROM iteration 1" loading="lazy" />
+          <img src="assets/ROM-reiterative2.png" alt="ROM iteration 2" loading="lazy" />
+        </div>
+      </section>
+
+      <section class="project-section">
+        <h2>Bonus</h2>
+        <img class="bonus-gif" src="assets/backflipping.gif" alt="Kangaroobot backflipping" loading="lazy" />
+        <p>It learned how to backflip in MuJoCo!</p>
+      </section>
+    </main>
+  </body>
+</html>
