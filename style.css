@@ -17,7 +17,7 @@ body {
 a { color: inherit; }
 a:hover { opacity: 0.85; }
 a, button {
-  cursor: url("assets/gear_icon.jpg") 16 16, pointer;
+  cursor: url("assets/gear_icon.png") 16 16, pointer;
 }
 
 .nav {
