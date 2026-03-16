@@ -32,13 +32,11 @@
         </div>
 
         <div class="project-overview">
-          <h2> Addressing under-car inspection and surveillance with a 4-DOF PRRR robotic arm </h2>
-          <p> The system addresses limitations of traditional inspection methods,such as restricted mobility 
-              and heavy operator dependence, by enabling a robot to navigate beneath vehicles and perform 
-              precise inspection or minor maintenance tasks. </p>
-          <p> The design objectives are to recreate the stable tail-assisted walking with 8 servos:
-            COM will be slowly transferred to the tail as it progresses, and slowly transferred 
-            back to the five points of  contact (four legs & tail)
+          <h2> Autonomous Under-Vehicle Inspection Robot with PRRR Manipulator </h2>
+          <p> Vehicle undercarriage inspection is typically performed using bulky equipment and manual operation, 
+              making the process slow, labor-intensive, and difficult to deploy in confined spaces. But how about
+              a compact robotic inspection system capable of navigating and positioning sensors or tools for 
+              detailed inspection tasks? </p>
 
           </p>
         </div>
