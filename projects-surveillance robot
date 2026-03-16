@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kangaroobot | Jane Lin</title>
+    <title> PRRR Under-car Surveillance Robot | Jane Lin</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 
@@ -19,9 +19,9 @@
       <a class="backlink" href="projects.html">← Back to Projects</a>
 
       <header class="project-header">
-        <h1>Kangaroobot</h1>
+        <h1>Surveillance Robot </h1>
         <p class="tag">
-          Simulation • MATLAB • Trajectory Planning • Forward/Inverse Kinematics
+          Simulation • MATLAB • Trajectory Planning • Workspace Visualization • Forward/Inverse Kinematics
         </p>
       </header>
 
@@ -32,10 +32,10 @@
         </div>
 
         <div class="project-overview">
-          <h2>From Nature to Mechanics: Tail-Assisted Walking from the Kangaroo’s playbook.</h2>
-          <p> Kangaroos use their long and strong tail as their “fifth” limb propel themselves 
-            forward while walking. The tail could even support their full body weight when 
-            they stand up to kick during fights! </p>
+          <h2> Addressing under-car inspection and surveillance with a 4-DOF PRRR robotic arm </h2>
+          <p> The system addresses limitations of traditional inspection methods,such as restricted mobility 
+              and heavy operator dependence, by enabling a robot to navigate beneath vehicles and perform 
+              precise inspection or minor maintenance tasks. </p>
           <p> The design objectives are to recreate the stable tail-assisted walking with 8 servos:
             COM will be slowly transferred to the tail as it progresses, and slowly transferred 
             back to the five points of  contact (four legs & tail)
