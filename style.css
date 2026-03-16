@@ -273,6 +273,19 @@ body{
   margin-top: 0;
 }
 
+.project-hero {
+  display: flex;
+  gap: 16px;           /* space between images */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;     /* prevents overflow on small screens */
+}
+.project-hero img {
+  width: 45%;          /* each image takes ~half the row */
+  max-width: 420px;    /* prevents them from becoming huge */
+  height: auto;
+  border-radius: 8px;
+}
 
 
 
