@@ -283,6 +283,9 @@ body{
   height: auto;
   border-radius: 6px;
 }
-
+.project-card:nth-child(2) .thumb img { object-fit: contain; background:      
+  #f5f5f5; }                                                                    
+.project-card:nth-child(6) .thumb img { object-fit: contain; background:      
+  #f5f5f5; }  
 
 
