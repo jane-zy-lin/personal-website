@@ -1,101 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projects | Jane Lin</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
+  <html lang="en">            
+    <head>
+      <meta charset="UTF-8" />                                                  
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Projects | Jane Lin</title>                                        
+      <link rel="stylesheet" href="style.css" />            
+    </head>                                                                     
+                                                                                
+    <body>
+      <nav class="nav">                                                         
+        <a class="brand" href="index.html">Jane Lin</a>     
+        <div class="links">                                                     
+          <a href="projects.html" aria-current="page">Projects</a>
+        </div>                                                                  
+      </nav>                                                
+                                                                                
+      <main class="container">                              
+        <header class="page-header">
+          <h1>Projects</h1>
+          <p class="tag">Robotics • Mechanical Design and Assembly • Electrical
+  Integration  •  Simulation</p>                                                
+        </header>
+                                                                                
+        <section class="projects-grid" aria-label="Project list">
+          <a class="project-card" href="projects-kangaroobot.html">
+            <div class="thumb">                                                 
+              <img src="assets/kanga-walking.gif" alt="Kangaroobot walking      
+  robot" loading="lazy" />                                                      
+            </div>                                                              
+            <div class="card-body">                                             
+              <h2>Kangaroobot</h2>                          
+              <p>A kangaroo-inspired walking robot with 8 servos & Raspberry Pi.With a unique gait, 
+                it achieves walking speed of 30cm/s.</p>                             
+              <span class="card-cta">View details →</span>                      
+            </div>                                          
+          </a>                                                                  
+                                                            
+          <a class="project-card" href="projects-spacecap.html">                
+            <div class="thumb">                             
+              <img src="assets/rpp_profile.jpg" alt="SpaceCap project cover" 
+  loading="lazy"/>                                                              
+            </div>
+            <div class="card-body">                                             
+              <h2>SpaceCap</h2>                             
+              <p>RPP robotic arm with a 2-claw gripper to capture orbital debris. 
+                Full mechanical, electrical, and software integration for open-loop control.</p>
+              <span class="card-cta">View details →</span>                      
+            </div>                                          
+          </a>                                                                  
+                                                            
+          <a class="project-card" href="projects-surveillance-robot.html">      
+            <div class="thumb">
+              <img src="assets/PRRR-tracing.gif" alt="Planar PRR manipulator"   
+  loading="lazy" />                                                             
+            </div>
+            <div class="card-body">                                             
+              <h2>PRRR Autonomous Surveillance Robot</h2>                       
+              <p>Designed and simulated a 4 DOF manipulator intended for under-vehicle inspection and maintainance.                                    
+                Verified kinematics, workspace, and trajectory analysis using DH table and MATLAB.</p>                                                        
+              <span class="card-cta">View details →</span>  
+            </div>                                                              
+          </a>                                              
 
-  <body>
-    <nav class="nav">
-      <a class="brand" href="index.html">Jane Lin</a>
-      <div class="links">
-        <a href="projects.html" aria-current="page">Projects</a>
-      </div>
-    </nav>
-
-    <main class="container">
-      <header class="page-header">
-        <h1>Projects</h1>
-        <p class="tag">Robotics • Mechanical Design and Assembly • Electrical Integration  •  Simulation</p>
-      </header>
-
-      <section class="projects-grid" aria-label="Project list">
-        <a class="project-card" href="projects-kangaroobot.html">
-          <div class="thumb">
-            <img src="assets/kanga-walking.gif" alt="Kangaroobot walking robot" loading="lazy" />
-          </div>
-          <div class="card-body">
-            <h2>Kangaroobot</h2>
-            <p>A kangaroo-inspired walking robot with 8 servos & Raspberry Pi. With a unique gait, it 
-            achieves walking speed of 30cm/s. </p>
-            <span class="card-cta">View details →</span>
-          </div>
-        </a>
-        <a class="project-card" href="projects-spacecap.html">
-          <div class="thumb">
-            <img src="assets/rpp_profile.jpg" alt="SpaceCap project cover" loading="lazy"/>
-          </div>
-        
-          <div class="card-body">
-            <h2>SpaceCap</h2>
-            <p>
-              RPP robotic arm with a 2-claw gripper to capture orbital debris. Full mechanical, electrical, and software
-              integration for open-loop control.</p>
-            <span class="card-cta'>View details →</span>
-        </a>
-        <a class="project-card" href="projects-surveillance-robot.html">
-          <div class="thumb">
-            <img src="assets/PRRR-tracing.gif" alt="Planar PRR manipulator" loading="lazy" />
-          </div>
-          <div class="card-body">
-            <h2>PRRR Autonomous Surveillance Robot</h2>
-            <p> Designed and simulated a 4 DOF manipulator intended for under-vehicle inspection and maintainance.
-              Verified kinematics, workspace, and trajectory analysis using DH table and MATLAB.
-              </p>
-            <span class="card-cta">View details →</span>
-          </div>
-        </a>
-        <div class="project-card confidential">
-          <div class="thumb">
-            <img src="assets/Arm Rest.png" alt="mTPAD platform" loading="lazy" />
-          </div>
-          <div class="card-body">
-            <h2>mTPAD Redesign</h2>
-            <p>Structural component redesign for a mobile Tethered Pelvic Assist Device (mTPAD)
-              to increase modularity while maintainig load bearing performance.</p>
-            <span class="card-cta"> To be kept confidential 🦾</span>
-          </div>
-        </div>
-     
-
-        <div class="project-card" href="projects-FEM-Airfoil.html">
-          <div class="thumb">
-            <img src="assets/FEM-airfoil.JPG" alt="FEM potential flow visualization" loading="lazy" />
-          </div>
-          <div class="card-body">
-            <h2>2D FEM Solver</h2>
-            <p>Developed FEM for potential flow, pressure field, and velocity around airfoil cutout, 
-              postprocessing and verification.</p>
-            <span class="card-cta"> Honorable mention✨</span>
-          </div>
-        </div>
-
-        <a class="project-card" href="projects-anxiety-wellness.html">
-        <div class="thumb">
-          <img src="assets/anxiety_wellness.gif" alt="Anxiety Wellness project cover" loading="lazy"/>
-        </div>
-      
-        <div class="card-body">
-          <h2>Anxiety Wellness</h2>
-          <p>
-            A wellness software to detect, mitigate, and track panic attacks with sensors integrated 
-            with Apple Watch. </p>
-          <span class="card-cta"> Honorable mention✨</span>
-        </div>
-      </a>
-      </section>
-    </main>
-  </body>
-</html>
+          <div class="project-card confidential">                               
+            <div class="thumb">
+              <img src="assets/Arm Rest.png" alt="mTPAD platform" loading="lazy"
+   />                                                                           
+            </div>
+            <div class="card-body">                                             
+              <h2>mTPAD Redesign</h2>                       
+              <p>Structural component redesign for a mobile Tethered Pelvic Assist Device (mTPAD)
+                 to increase modularity while maintainig load bearing performance.</p>                                                              
+              <span class="card-cta">To be kept confidential 🦾</span>
+            </div>                                                              
+          </div>                                            
+                                                                                
+          <a class="project-card" href="projects-FEM-Airfoil.html">
+            <div class="thumb">
+              <img src="assets/FEM-airfoil.JPG" alt="FEM potential flow 
+  visualization" loading="lazy" />                                              
+            </div>
+            <div class="card-body">                                             
+              <h2>2D FEM Solver</h2>                                            
+              <p>Developed FEM for potential flow, pressure field, and velocity around airfoil cutout,                                                        
+                postprocessing and verification.</p>        
+              <span class="card-cta">Honorable mention✨</span>                 
+            </div>                                                              
+          </a>                                                                  
+                                                                                
+          <a class="project-card" href="projects-anxiety-wellness.html">
+            <div class="thumb">
+              <img src="assets/anxiety_wellness.gif" alt="Anxiety Wellness 
+  project cover" loading="lazy"/>                                               
+            </div>
+            <div class="card-body">                                             
+              <h2>Anxiety Wellness</h2>                                         
+              <p>A wellness software to detect, mitigate, and track panic attacks with sensors integrated                                               
+                with Apple Watch.</p>                       
+              <span class="card-cta">Honorable mention✨</span>                 
+            </div>                                          
+          </a>                                                                  
+        </section>
+      </main>                                                                   
+    </body>                                                 
+  </html>
