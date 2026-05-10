@@ -32,13 +32,16 @@
         </div>
 
         <div class="project-overview">
-          <h2>SpaceCap: a 3-DOF robotic arm to capture small debris in space</h2>
+          <h2>SpaceCap: a 3-DOF robotic arm to capture cooperative debris in space</h2>
           <p> Space debris is a growing threat to operational satellites and future missions. 
-              SpaceCap is a 3-DOF robotic arm designed to demonstrate controlled debris capture via teleoperation at lab scale,
+              SpaceCap's 3-DOF configuration is designed to demonstrate controlled debris capture via teleoperation at lab scale,
               validating the core mechanics of reach, align, and grasp before scaling to an on-orbit system</p>
-          <p> This early-stage prototype operates within a cylindrical workspace and reaches target
-              coordinate with precision and consistency. It can grasp representative object with widths
-              below 50mm and masses under 20g.
+          <p> The system adopts an RPP (revolute–prismatic–prismatic) architecture and operates within a cylindrical workspace, 
+              enabling consistent positioning and linear extension toward target objects. This RPP configuration was selected to 
+              prioritize positional stability and linear target approach behavior within a cylindrical 
+              workspace, making it well suited for an early-stage debris capture demonstrator.The prototype can repeatedly reach target 
+              coordinates with stable positioning accuracy and grasp representative objects with widths below 50 mm and masses 
+              under 20 g.
           </p>
         </div>
       </section>
@@ -66,8 +69,8 @@
       </section>
       <section class="project-section">
         <p> The base joint achieves full 360° rotation using a servo-driven gear stack system.
-            A gear mounted directly on the MG90 servo transfers torque to a smaller gear on the turntable, providing a 2:1 transmissionr rate. 
-            The rotating platform sits on a Lazy Susan bearing, which is mounted to a 3D-printed base that houses the wiring and keeps the center of mass low.
+            A gear mounted directly on the MG90 servo (180° ROM) transfers torque to a smaller gear on the turntable, providing a 2:1 transmission rate. 
+            The rotating platform sits on a Lazy Susan bearing, which is mounted to a 3D-printed base that houses the wiring and keeps the COM low.
         </p>
       </section>
         <div style="display: flex; gap: 12px; align-items: stretch;">
@@ -83,9 +86,10 @@
         </div>                                                                                                  
     </div>  
      <section class="project-section">
-        <p> The vertical joint uses a lead screw driven by a stepper motor to lift the arm. 
-            The horizontal joint extends radially via a rack & pinion system, and its stepper motor
-            sits on top of of wheeled pantry, which is guided by an aluminum rail.
+        <p> The two prismatic joints are both driven by NEMA 17 stepper motors. The vertical joint is actuated through a lead screw mechanism,
+            chosen for its resistance to back-driving and mechanical stability. 
+            The horizontal joint extends radially via a rack-and-pinion system coupled to the stepper motor mounted on a wheeled carraige assembly.
+            The carraige travels along an aluminum linear rail, constraining lateral motion and maintaining alignment during extension and retraction.
             
         
         </p>
@@ -99,7 +103,7 @@
         </div>
 
         <div class="project-overview">
-          <p> The electrical system runs off a 12V 2A wall supply. Two DRV8825 motor                    
+          <p> The electrical system runs off a 12V power supply. Two DRV8825 motor                    
               drivers control the NEMA17 motors for the vertical and                       
               horizontal joints, while two MG90 servos handle the base rotation and                         
               gripper. A toggle switch is integrated as an E-stop to prevent physical damage.
@@ -115,7 +119,7 @@
     <section class="project-section">
         <p> A browser-based control panel that routes motion commands through a Python controller provides a visual
             interaction. The interface displays each actuator's current position and status,                 
-            supports individual joint control and zeroing.                  
+            supporting individual joint control and zeroing.                  
         </p>
       </section>
     </main>
