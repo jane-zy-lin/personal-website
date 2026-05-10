@@ -27,9 +27,9 @@
       </header>
 
       <section class="project-intro">
-        <div class="project-hero">
-          <img src="assets/rpp_motion.gif" alt="rpp_profile" />
-        </div>
+        <video autoplay loop muted playsinline style="width:100%; border-radius:12px;">                           
+        <source src="assets/rpp_motion.mov" type="video/mp4" />                                                       
+        </video>  
 
         <div class="project-overview">
           <h2>SpaceCap: a 3-DOF robotic arm to capture cooperative debris in space</h2>
@@ -103,10 +103,11 @@
         </div>
 
         <div class="project-overview">
-          <p> The electrical system runs off a 12V power supply. Two DRV8825 motor                    
-              drivers control the NEMA17 motors for the vertical and                       
-              horizontal joints, while two MG90 servos handle the base rotation and                         
-              gripper. A toggle switch is integrated as an E-stop to prevent physical damage.
+          <p> The electrical system is powered by 12V power supply. Two DRV8825 motor                    
+              drivers interface the NEMA 17 stepper motors for the vertical and                       
+              the horizontal joints, providing microstepping capability for precise motion control.
+              Two MG90 servos handle the base rotation and the gripper. A hardware toggle switch is implemented 
+              as an emergency stop (E-stop), allowing rapid power interruption to the actuation system in the event of unintended motion or mechanical interference.
           </p>
         </div>
       </section>
