@@ -52,6 +52,7 @@
           <img src="assets/subsystem_integration.png" alt="subsystem_integration" />
           <img src="assets/workspace.png" alt="workspace_vis" />
         </div>
+        
       </section>
       <section class="project-overview">
         <h2>Mechanical</h2>
@@ -64,7 +65,9 @@
         </div>
       </section>
       <section class="project-section">
-        <p> To achieve a 360° rotation of the base...
+        <p> The base joint achieves full 360° rotation using a servo-driven gear stack system.
+            A gear mounted directly on the MG90 servo transfers torque to a smaller gear on the turntable, providing a 2:1 transmissionr rate. 
+            The rotating platform sits on a Lazy Susan bearing, which is mounted to a 3D-printed base that houses the wiring and keeps the center of mass low.
         </p>
       </section>
         <div style="display: flex; gap: 12px; align-items: stretch;">
@@ -80,7 +83,11 @@
         </div>                                                                                                  
     </div>  
      <section class="project-section">
-        <p> Vertical & Horizontal Joint...
+        <p> The vertical joint uses a lead screw driven by a stepper motor to lift the arm. 
+            The horizontal joint extends radially via a rack & pinion system, and its stepper motor
+            sits on top of of wheeled pantry, which is guided by an aluminum rail.
+            
+        
         </p>
       </section>
     <section class="project-overview">
@@ -92,7 +99,10 @@
         </div>
 
         <div class="project-overview">
-          <p>
+          <p> The electrical system runs off a 12V 2A wall supply. Two DRV8825 motor                    
+              drivers control the NEMA17 motors for the vertical and                       
+              horizontal joints, while two MG90 servos handle the base rotation and                         
+              gripper. A toggle switch is integrated as an E-stop to prevent physical damage.
           </p>
         </div>
       </section>
@@ -103,7 +113,9 @@
     <source src="assets/control_panel.mov" type="video/mp4" />                                                       
     </video>  
     <section class="project-section">
-        <p> Control Panel
+        <p> A browser-based control panel that routes motion commands through a Python controller provides a visual
+            interaction. The interface displays each actuator's current position and status,                 
+            supports individual joint control and zeroing.                  
         </p>
       </section>
     </main>
